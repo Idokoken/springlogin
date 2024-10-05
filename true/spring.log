@@ -1,0 +1,158 @@
+2024-10-05T00:46:33.111+01:00  INFO 11180 --- [springLogin] [restartedMain] n.springLogin.SpringLoginApplication     : Starting SpringLoginApplication using Java 18.0.1.1 with PID 11180 (C:\Users\User\Documents\kenneth\project\springLogin\target\classes started by User in C:\Users\User\Documents\kenneth\project\springLogin)
+2024-10-05T00:46:33.172+01:00  INFO 11180 --- [springLogin] [restartedMain] n.springLogin.SpringLoginApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T00:46:33.426+01:00  INFO 11180 --- [springLogin] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-05T00:46:33.428+01:00  INFO 11180 --- [springLogin] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-05T00:46:37.000+01:00  INFO 11180 --- [springLogin] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T00:46:37.081+01:00  INFO 11180 --- [springLogin] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JPA repository interfaces.
+2024-10-05T00:46:39.096+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T00:46:39.135+01:00  INFO 11180 --- [springLogin] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T00:46:39.135+01:00  INFO 11180 --- [springLogin] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T00:46:39.259+01:00  INFO 11180 --- [springLogin] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T00:46:39.261+01:00  INFO 11180 --- [springLogin] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5831 ms
+2024-10-05T00:46:39.463+01:00  INFO 11180 --- [springLogin] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T00:46:40.086+01:00  INFO 11180 --- [springLogin] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cd036bf6-4ea4-4fdd-babc-360de4157978 user=SA
+2024-10-05T00:46:40.089+01:00  INFO 11180 --- [springLogin] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T00:46:40.105+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cd036bf6-4ea4-4fdd-babc-360de4157978'
+2024-10-05T00:46:40.696+01:00  INFO 11180 --- [springLogin] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T00:46:40.876+01:00  INFO 11180 --- [springLogin] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T00:46:40.988+01:00  INFO 11180 --- [springLogin] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T00:46:42.086+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T00:46:43.004+01:00  INFO 11180 --- [springLogin] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T00:46:43.011+01:00  INFO 11180 --- [springLogin] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T00:46:43.131+01:00  WARN 11180 --- [springLogin] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T00:46:43.210+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-05T00:46:44.626+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-05T00:46:44.803+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T00:46:44.862+01:00  INFO 11180 --- [springLogin] [restartedMain] n.springLogin.SpringLoginApplication     : Started SpringLoginApplication in 13.368 seconds (process running for 17.723)
+2024-10-05T00:46:45.087+01:00  INFO 11180 --- [springLogin] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-05T00:46:45.089+01:00  INFO 11180 --- [springLogin] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-05T00:46:45.092+01:00  INFO 11180 --- [springLogin] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-10-05T00:46:45.931+01:00  WARN 11180 --- [springLogin] [http-nio-8080-exec-1] actStandardFragmentInsertionTagProcessor : [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/header :: header" found in template index, line 18, col 9. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: header}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-10-05T03:40:10.049+01:00  INFO 11180 --- [springLogin] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-10-05T03:40:15.693+01:00  INFO 11180 --- [springLogin] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:40:18.073+01:00  WARN 11180 --- [springLogin] [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-05T03:40:18.074+01:00  INFO 11180 --- [springLogin] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T03:40:18.223+01:00  INFO 11180 --- [springLogin] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T03:40:22.886+01:00  INFO 11180 --- [springLogin] [restartedMain] n.springLogin.SpringLoginApplication     : Starting SpringLoginApplication using Java 18.0.1.1 with PID 11180 (C:\Users\User\Documents\kenneth\project\springLogin\target\classes started by User in C:\Users\User\Documents\kenneth\project\springLogin)
+2024-10-05T03:40:22.886+01:00  INFO 11180 --- [springLogin] [restartedMain] n.springLogin.SpringLoginApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T03:40:23.762+01:00  INFO 11180 --- [springLogin] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T03:40:23.798+01:00  INFO 11180 --- [springLogin] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 0 JPA repository interfaces.
+2024-10-05T03:40:24.481+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T03:40:24.495+01:00  INFO 11180 --- [springLogin] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T03:40:24.496+01:00  INFO 11180 --- [springLogin] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T03:40:24.607+01:00  INFO 11180 --- [springLogin] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T03:40:24.607+01:00  INFO 11180 --- [springLogin] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1686 ms
+2024-10-05T03:40:24.651+01:00  INFO 11180 --- [springLogin] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-10-05T03:40:24.666+01:00  INFO 11180 --- [springLogin] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn60: url=jdbc:h2:mem:6ea27340-f44c-421c-bf8d-f218bcee8e0e user=SA
+2024-10-05T03:40:24.667+01:00  INFO 11180 --- [springLogin] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-10-05T03:40:24.682+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:6ea27340-f44c-421c-bf8d-f218bcee8e0e'
+2024-10-05T03:40:24.767+01:00  INFO 11180 --- [springLogin] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T03:40:24.776+01:00  INFO 11180 --- [springLogin] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T03:40:24.913+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T03:40:24.995+01:00  INFO 11180 --- [springLogin] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T03:40:24.995+01:00  INFO 11180 --- [springLogin] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:40:25.134+01:00  WARN 11180 --- [springLogin] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T03:40:25.160+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-05T03:40:25.516+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-05T03:40:25.552+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T03:40:25.636+01:00  INFO 11180 --- [springLogin] [restartedMain] n.springLogin.SpringLoginApplication     : Started SpringLoginApplication in 3.231 seconds (process running for 10438.497)
+2024-10-05T03:40:25.642+01:00  INFO 11180 --- [springLogin] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-05T03:40:30.871+01:00  INFO 16140 --- [springLogin] [main] n.s.SpringLoginApplicationTests          : Starting SpringLoginApplicationTests using Java 18.0.1.1 with PID 16140 (started by User in C:\Users\User\Documents\kenneth\project\springLogin)
+2024-10-05T03:40:30.874+01:00  INFO 16140 --- [springLogin] [main] n.s.SpringLoginApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T03:40:32.517+01:00  INFO 16140 --- [springLogin] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T03:40:32.567+01:00  INFO 16140 --- [springLogin] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 JPA repository interfaces.
+2024-10-05T03:40:33.615+01:00  INFO 16140 --- [springLogin] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T03:40:34.299+01:00  INFO 16140 --- [springLogin] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:50350094-ac6f-4102-901c-6b46117eb22f user=SA
+2024-10-05T03:40:34.301+01:00  INFO 16140 --- [springLogin] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T03:40:34.440+01:00  INFO 16140 --- [springLogin] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T03:40:34.632+01:00  INFO 16140 --- [springLogin] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T03:40:34.734+01:00  INFO 16140 --- [springLogin] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T03:40:35.661+01:00  INFO 16140 --- [springLogin] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T03:40:36.548+01:00  INFO 16140 --- [springLogin] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T03:40:36.564+01:00  INFO 16140 --- [springLogin] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:40:36.965+01:00  WARN 16140 --- [springLogin] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T03:40:37.019+01:00  INFO 16140 --- [springLogin] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-05T03:40:37.988+01:00  INFO 16140 --- [springLogin] [main] n.s.SpringLoginApplicationTests          : Started SpringLoginApplicationTests in 7.844 seconds (process running for 10.642)
+2024-10-05T03:40:39.675+01:00  INFO 16140 --- [springLogin] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T03:40:39.678+01:00  INFO 16140 --- [springLogin] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T03:40:39.684+01:00  INFO 16140 --- [springLogin] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T07:55:34.380+01:00  WARN 11180 --- [springLogin] [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2h41m38s41ms804µs400ns).
+2024-10-05T09:28:50.846+01:00  INFO 11180 --- [springLogin] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-05T09:28:52.186+01:00  INFO 11180 --- [springLogin] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T09:28:52.704+01:00  WARN 11180 --- [springLogin] [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-05T09:28:52.705+01:00  INFO 11180 --- [springLogin] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-10-05T09:28:52.744+01:00  INFO 11180 --- [springLogin] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-10-05T09:28:54.047+01:00  INFO 11180 --- [springLogin] [restartedMain] n.springLogin.SpringLoginApplication     : Starting SpringLoginApplication using Java 18.0.1.1 with PID 11180 (C:\Users\User\Documents\kenneth\project\springLogin\target\classes started by User in C:\Users\User\Documents\kenneth\project\springLogin)
+2024-10-05T09:28:54.047+01:00  INFO 11180 --- [springLogin] [restartedMain] n.springLogin.SpringLoginApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T09:28:57.867+01:00  INFO 11180 --- [springLogin] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T09:28:57.871+01:00  INFO 11180 --- [springLogin] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2024-10-05T09:29:03.261+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T09:29:03.263+01:00  INFO 11180 --- [springLogin] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T09:29:03.264+01:00  INFO 11180 --- [springLogin] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T09:29:06.653+01:00  INFO 16628 --- [springLogin] [restartedMain] n.springLogin.SpringLoginApplication     : Starting SpringLoginApplication using Java 18.0.1.1 with PID 16628 (C:\Users\User\Documents\kenneth\project\springLogin\target\classes started by User in C:\Users\User\Documents\kenneth\project\springLogin)
+2024-10-05T09:29:06.656+01:00  INFO 16628 --- [springLogin] [restartedMain] n.springLogin.SpringLoginApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-10-05T09:29:06.838+01:00  INFO 16628 --- [springLogin] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-05T09:29:06.839+01:00  INFO 16628 --- [springLogin] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-05T09:29:07.083+01:00  INFO 11180 --- [springLogin] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T09:29:07.084+01:00  INFO 11180 --- [springLogin] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13027 ms
+2024-10-05T09:29:07.102+01:00  INFO 11180 --- [springLogin] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-10-05T09:29:07.107+01:00  INFO 11180 --- [springLogin] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn140: url=jdbc:h2:mem:440df038-2ba2-450d-ac37-31d20387199c user=SA
+2024-10-05T09:29:07.108+01:00  INFO 11180 --- [springLogin] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-10-05T09:29:07.108+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:440df038-2ba2-450d-ac37-31d20387199c'
+2024-10-05T09:29:07.185+01:00  INFO 11180 --- [springLogin] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T09:29:07.201+01:00  INFO 11180 --- [springLogin] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T09:29:07.306+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T09:29:07.488+01:00  INFO 11180 --- [springLogin] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T09:29:07.489+01:00  INFO 11180 --- [springLogin] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T09:29:07.535+01:00  WARN 11180 --- [springLogin] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T09:29:07.834+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-05T09:29:08.294+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-05T09:29:08.308+01:00  INFO 11180 --- [springLogin] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-05T09:29:08.333+01:00  INFO 11180 --- [springLogin] [restartedMain] n.springLogin.SpringLoginApplication     : Started SpringLoginApplication in 14.442 seconds (process running for 31361.202)
+2024-10-05T09:29:08.337+01:00  INFO 11180 --- [springLogin] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-05T09:29:11.377+01:00  INFO 16628 --- [springLogin] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-05T09:29:11.453+01:00  INFO 16628 --- [springLogin] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 0 JPA repository interfaces.
+2024-10-05T09:29:16.854+01:00  INFO 16628 --- [springLogin] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-05T09:29:17.118+01:00  INFO 16628 --- [springLogin] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-05T09:29:17.119+01:00  INFO 16628 --- [springLogin] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-05T09:29:19.925+01:00  INFO 16628 --- [springLogin] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-05T09:29:19.926+01:00  INFO 16628 --- [springLogin] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13086 ms
+2024-10-05T09:29:20.079+01:00  INFO 16628 --- [springLogin] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-05T09:29:21.080+01:00  INFO 16628 --- [springLogin] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e384e48d-d9cc-4bca-a1d9-cee68b8fcd82 user=SA
+2024-10-05T09:29:21.084+01:00  INFO 16628 --- [springLogin] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-05T09:29:21.102+01:00  INFO 16628 --- [springLogin] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e384e48d-d9cc-4bca-a1d9-cee68b8fcd82'
+2024-10-05T09:29:21.686+01:00  INFO 16628 --- [springLogin] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-05T09:29:22.071+01:00  INFO 16628 --- [springLogin] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-05T09:29:22.230+01:00  INFO 16628 --- [springLogin] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-05T09:29:23.279+01:00  INFO 16628 --- [springLogin] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-05T09:29:24.529+01:00  INFO 16628 --- [springLogin] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-05T09:29:24.542+01:00  INFO 16628 --- [springLogin] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T09:29:24.702+01:00  WARN 16628 --- [springLogin] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-05T09:29:24.824+01:00  INFO 16628 --- [springLogin] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-05T09:29:26.070+01:00  WARN 16628 --- [springLogin] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-10-05T09:29:26.122+01:00  WARN 16628 --- [springLogin] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-05T09:29:26.126+01:00  INFO 16628 --- [springLogin] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T09:29:26.147+01:00  WARN 16628 --- [springLogin] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-05T09:29:26.149+01:00  INFO 16628 --- [springLogin] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-05T09:29:26.164+01:00  INFO 16628 --- [springLogin] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-05T09:29:26.216+01:00  INFO 16628 --- [springLogin] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-05T09:29:26.309+01:00 ERROR 16628 --- [springLogin] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-10-05T09:31:32.286+01:00  INFO 11180 --- [springLogin] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-05T09:31:32.287+01:00  WARN 11180 --- [springLogin] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-05T09:31:32.288+01:00  INFO 11180 --- [springLogin] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-10-05T09:31:32.289+01:00  INFO 11180 --- [springLogin] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" th:href="@{/images/favicon.png}" type="image/x-icon" />
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/css/fontawesome.css}">
+    <link rel="stylesheet" th:href="@{/css/brands.css}">
+    <link rel="stylesheet" th:href="@{/css/solid.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <title>login system</title>
+</head>
+<body>
+<!--header section-->
+<header th:replace="fragments/header :: header">...</header>
+
+<!--main section-->
+<main>
+    <div class="home container mt-4">
+        <section class="hero">
+
+            <h2 class="text-bold welcome text-center my-2">
+                Welcome to home Page
+            </h2>
+            <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid deserunt eaque eligendi
+                et illum impedit ipsum, nam nobis, obcaecati pariatur porro provident quae quaerat qui
+                quibusdam sequi vel velit.
+            </p>
+            <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid deserunt eaque eligendi
+                et illum impedit ipsum, nam nobis, obcaecati pariatur porro provident quae quaerat qui
+                quibusdam sequi vel velit.
+            </p>
+            <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid deserunt eaque eligendi
+                et illum impedit ipsum, nam nobis, obcaecati pariatur porro provident quae quaerat qui
+                quibusdam sequi vel velit.
+            </p>
+        </section>
+    </div>
+
+
+</main>
+
+
+<!--javascript section-->
+<script type="text/javascript" th:src="@{/js/bootstrap.bundle.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/solid.js}"></script>
+<script type="text/javascript" th:src="@{/js/brands.js}"></script>
+<script type="text/javascript" th:src="@{/js/fontawesome.js}"></script>
+</body>
+</html>
