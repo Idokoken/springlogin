@@ -1,6 +1,5 @@
 package ndgroups.springLogin.controller;
 
-
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import ndgroups.springLogin.events.RegistrationCompleteEvent;

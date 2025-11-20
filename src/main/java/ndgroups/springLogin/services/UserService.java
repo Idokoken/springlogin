@@ -1,6 +1,5 @@
 package ndgroups.springLogin.services;
 
-import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import ndgroups.springLogin.config.UserAlreadyExistException;
 import ndgroups.springLogin.model.RegistrationRequest;
@@ -70,4 +69,6 @@ public class UserService implements IUserService {
         userRepository.save(user);
         return "valid";
     }
+
+
 }

@@ -26,6 +26,7 @@ public class UserRegistrationDetails implements UserDetails {
                 .collect(Collectors.toList());
     }
 
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return authorities;

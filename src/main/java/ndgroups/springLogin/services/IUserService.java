@@ -2,7 +2,6 @@ package ndgroups.springLogin.services;
 
 import ndgroups.springLogin.model.RegistrationRequest;
 import ndgroups.springLogin.model.User;
-import ndgroups.springLogin.registration.token.VerificationToken;
 
 import java.util.List;
 import java.util.Optional;
