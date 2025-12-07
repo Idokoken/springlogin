@@ -8,17 +8,19 @@ import ndgroups.springLogin.model.User;
 import ndgroups.springLogin.registration.token.VerificationToken;
 import ndgroups.springLogin.repository.VerificationTokenRepository;
 import ndgroups.springLogin.services.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/register")
-@RequiredArgsConstructor
 public class RegistrationController {
-
-    private final UserService userService;
-    private final ApplicationEventPublisher publisher;
-    private final VerificationTokenRepository verificationTokenRepository;
+    @Autowired
+    private UserService userService;
+    @Autowired
+    private ApplicationEventPublisher publisher;
+    @Autowired
+    private VerificationTokenRepository verificationTokenRepository;
 
     @PostMapping
     public String registerUser(@RequestBody RegistrationRequest registrationRequest,
